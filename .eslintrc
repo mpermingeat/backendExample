@@ -1,0 +1,9 @@
+{
+  "extends": "standard",
+  "rules": {
+    "quotes": "off",
+    "semi": ["error", "always"],
+    "comma-dangle": "off",
+    "curly": "off"
+  }
+}
