@@ -2,7 +2,7 @@
 
 ## Distribucion de archivos
 
-![Alt text](image.png)
+![Alt text](/src/assets/img/image.png)
 
 - Por cada entidad de la base de datos creamos una carpeta con el nombre de la entidad dentro de la carpeta modules.
 
@@ -14,7 +14,7 @@
 
 - En 'example'.module.js definimos el modelo de la entidad, en este caso un modelo de sequelize - postgres, de un usuario
 
-![Alt text](image-1.png)
+![Alt text](/src/assets/img/image-1.png)
 
 ## 'example'.routes.js
 
@@ -22,7 +22,7 @@
 
 - Separandolas en inputs y outputs para mejor legibilidad, y con nombres intuitivos
 
-![Alt text](image-2.png)
+![Alt text](/src/assets/img/image-2.png)
 
 ## 'example'.controller.js
 
@@ -35,7 +35,7 @@
 
 - Puede ser servicios especificos de la entidad o servicios globales, o servicios de otras entidades.
 
-![Alt text](image-3.png)
+![Alt text](/src/assets/img/image-3.png)
 
 ## 'example.sevice.js'
 
@@ -45,10 +45,10 @@
 
 - Todos los servicios de una entidad se exportan como metodos del exampleService como en la imagen de ejemplo
 
-![Alt text](image-4.png)
+![Alt text](/src/assets/img/image-4.png)
 
 ## /Service global-services.js
 
 - Dentro se definiran los servicios globales que no dependan de una entidad en si, y puedan ser reutilizados en cualquier lugar
 
-![Alt text](image-5.png)
+![Alt text](/src/assets/img/image-5.png)
